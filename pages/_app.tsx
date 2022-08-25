@@ -1,8 +1,15 @@
-import '../styles/globals.css'
+import '../styles/globals.scss'
 import type { AppProps } from 'next/app'
+import Menu from '../src/components/menu'
 
 function MyApp({ Component, pageProps }: AppProps) {
-  return <Component {...pageProps} />
+  return (
+    <div>
+      <Component {...pageProps} />
+      <Menu />
+
+    </div>
+    )
 }
 
 export default MyApp
