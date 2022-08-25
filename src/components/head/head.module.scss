@@ -1,0 +1,30 @@
+.head {
+  position: absolute;
+  width: 1376px;
+  height: 56px;
+  left: 32px;
+  top: 32px;
+
+  input {
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 8px;
+
+    width: 752px;
+    height: 56px;
+
+    background: rgba(255, 255, 255, 0.16);
+    border-radius: 8px;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+  }
+}

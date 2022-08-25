@@ -1,23 +1,50 @@
-.menu{
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: center;
-    height: 100vh;
-    width: 15vw;
-    background: #051D3B;
-    
-    a{
-        text-decoration: none;
-        font-size: 1.4vw;
-        margin: 0.6rem 0;
-        color: #fff;
-    }
+.menu {
+  position: absolute;
+  width: 189px;
+  height: 146px;
+  left: 32px;
+  top: 128px;
 
-    div{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }
+  p {
+    position: absolute;
+    width: 51px;
+    height: 18px;
+    left: 32px;
+    top: 128px;
+
+    /* Sidebar title */
+
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    /* identical to box height, or 150% */
+
+    letter-spacing: 0.4em;
+    text-transform: uppercase;
+
+    /* Neutral/$white */
+
+    color: #ffffff;
+  }
+
+  .links {
+    position: absolute;
+    left: 33.86%;
+    right: 0%;
+    top: 25%;
+    bottom: 25%;
+
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height, or 150% */
+
+    /* Neutral/$white */
+
+    color: #ffffff;
+  }
 }
