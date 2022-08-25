@@ -1,0 +1,58 @@
+.sub_menu {
+  position: absolute;
+  flex-direction: column;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 22.5vw;
+  height: 89%;
+  right: 0px;
+  top: 5rem;
+  color: #fff;
+  .sub_menu_list {
+    display: flex;
+    flex-direction: column;
+    width: 20vw;
+
+    label {
+      font-style: normal;
+      font-weight: 400;
+      font-size: 12px;
+      line-height: 18px;
+      letter-spacing: 0.4em;
+      text-transform: uppercase;
+    }
+
+    textarea {
+      background: rgba(255, 255, 255, 0.16);
+      border-radius: 8px;
+      border: none;
+      flex: none;
+      order: 0;
+      align-self: stretch;
+      flex-grow: 0;
+      margin-bottom: 1.5rem;
+      height: 5rem;
+      padding: 1rem;
+    }
+
+    .input_projeto {
+      background: rgba(255, 255, 255, 0.16);
+      border-radius: 8px;
+      border: none;
+      flex: none;
+      order: 0;
+      align-self: stretch;
+      flex-grow: 0;
+      height: 3.5rem;
+      margin: 2rem 0;
+      padding: 0 1rem;
+    }
+  }
+  div {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+}
