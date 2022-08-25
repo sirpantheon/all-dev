@@ -1,30 +1,47 @@
 .head {
-  position: absolute;
-  width: 1376px;
-  height: 56px;
-  left: 32px;
-  top: 32px;
-
-  input {
-    /* Auto layout */
-
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 1rem;
+  height: 5vh;
+  //busca-logo------------------------------------
+  .container{
+    width: 75vw;
+  }
+  .logo {
     display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    padding: 0px;
-    gap: 8px;
-
-    width: 752px;
-    height: 56px;
-
+    align-items: center;
+  }
+  .input {
+    align-self: stretch;
+    align-items: center;
     background: rgba(255, 255, 255, 0.16);
     border-radius: 8px;
+    padding: 0 3rem;
+    color: #fff;
+    border: none;
+    flex-grow: 2;
+    margin-left: 4rem;
+  }
 
-    /* Inside auto layout */
-
-    flex: none;
-    order: 0;
+  //avatar--------------------------------------
+  .avatar {
+    display: flex;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #ffffff;
     align-self: stretch;
     flex-grow: 0;
+
+    .foto_avatar {
+      width: 32px;
+      height: 32px;
+      background: #fff;
+      margin: 0 0.5rem;
+      border-radius: 50%;
+    }
   }
 }

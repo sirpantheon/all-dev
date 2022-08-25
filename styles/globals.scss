@@ -25,6 +25,10 @@ time, mark, audio, video {
     vertical-align: baseline;
     font-family: 'Inter', sans-serif;
     display: flex;
+    flex-wrap: wrap;
+    text-decoration: none;
+    border: none;
+    
 }
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
